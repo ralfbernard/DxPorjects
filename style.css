@@ -20,8 +20,10 @@ h1 {
     gap: 5px;
     border: 5px solid black;
     padding: 10px;
+
     border-radius: 10px;
     background-color: #ccc;
+
     
 }
 #calculation-display {
@@ -66,4 +68,9 @@ h1 {
 }
 .bottom button:nth-child(2) {
     flex: 3;
+}
+
+button:hover {
+    background-color: rgb(243, 239, 239);
+    border: 2px solid black;
 }
